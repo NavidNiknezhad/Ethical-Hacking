@@ -46,7 +46,7 @@ This is the only mathematical way I came up with.
 Nmap stands for Network Mapper which is an open-source tool frequently used by the system and network administrators for network discovery, security auditing, network inventory, managing service upgrade schedules, and monitoring host or service uptime (Lyon, N.D, https://nmap.org/)
 The objective of this task is to learn what services are running on TCP port 8787. So, to achieve this I used Nmap. information by entering the following command: <br>
 
-*** '''sudo nmap -sV -p 8787 192.168.1.103*** <br>
+```***sudo nmap -sV -p 8787 192.168.1.103***``` <br>
 result:<br>
 The outcome depicts that port 8787 of host 192.168.1.103 is running the service DRB located in folder /usr/lib/ruby/1.8/drb with the version Ruby DRb RMI (Ruby 1.8).
 
