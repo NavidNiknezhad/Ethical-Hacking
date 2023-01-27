@@ -2,15 +2,15 @@
 # Pentesting Project
 
 ## Hosts IP Addresses
-Windows 7: 192.168.1.101/24 <br>
+***Windows 7: 192.168.1.101/24 <br>
 Kali Linux: 192.168.1.102/24 <br>
-Metasploitable2: 192.168.1.103/24 <br>
+Metasploitable2: 192.168.1.103/24***<br>
 
 ## Table of contents
 
 ### Task 1: General Hacking Capability
-***1.1 Cryptogram***
-***1.2 Matchstick Puzzle***
+***1.1 Cryptogram*** <br>
+***1.2 Matchstick Puzzle*** <br>
 
 ### Task 2: Service and Vulnerability Detection
 2.1 nmap
