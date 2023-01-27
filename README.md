@@ -9,23 +9,23 @@ Metasploitable2: 192.168.1.103/24***<br>
 ## Table of contents
 
 ### Task 1: General Hacking Capability
-***1.1 Cryptogram*** <br>
-***1.2 Matchstick Puzzle*** <br>
+1.1 Cryptogram <br>
+1.2 Matchstick Puzzle <br>
 
 ### Task 2: Service and Vulnerability Detection
-***2.1 nmap<br>
-2.2 OpenVas***
+2.1 nmap<br>
+2.2 OpenVas
 
 ### Task 3: Exploitation
-***3.1 Services: Backdoors <br>
-3.2 distcc Remote Code Execution Vulnerability***
+3.1 Services: Backdoors <br>
+3.2 distcc Remote Code Execution Vulnerability
 
 ### Task 4: Post Exploitation
-***4.1 Escalate privilege***
+4.1 Escalate privilege
 
 ### Task 5: Web Pentesting
-***5.1 The SQLI page <br>
-5.2 The Stored XSS page***
+5.1 The SQLI page <br>
+5.2 The Stored XSS page
 
 ### Task 6: picoCTF
 
@@ -44,11 +44,10 @@ This is the only mathematical way I came up with.
 
 ### 2.1 nmap
 Nmap stands for Network Mapper which is an open-source tool frequently used by the system and network administrators for network discovery, security auditing, network inventory, managing service upgrade schedules, and monitoring host or service uptime (Lyon, N.D, https://nmap.org/)
-The objective of this task is to learn what services are running on TCP port 8787. So, to achieve this I used Nmap. information by entering the following command:
+The objective of this task is to learn what services are running on TCP port 8787. So, to achieve this I used Nmap. information by entering the following command: <br>
 
-Copy code
-***sudo nmap -sV -p 8787 192.168.1.103***
-result:
+*** '''sudo nmap -sV -p 8787 192.168.1.103*** <br>
+result:<br>
 The outcome depicts that port 8787 of host 192.168.1.103 is running the service DRB located in folder /usr/lib/ruby/1.8/drb with the version Ruby DRb RMI (Ruby 1.8).
 
 ### 2.2 OpenVas
