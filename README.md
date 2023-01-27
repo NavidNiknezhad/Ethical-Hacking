@@ -56,9 +56,9 @@ The objective of this task is to scan the requested target, Metasploitable2 VM a
 The following steps are implemented to accomplish this task:
 
 -Create a port list, target and task.
-> -Under the Configuration tab, click Ports Lists.
-> -Click the Star Icon (on the top left of the screen) to create a New Ports List
-> -Fill out the form with the correct details and click Create.
-> -The created port list should appear on the list, as shown below.
-> -Under the Configuration tab, click Targets.
-> -Click the Star Icon (on the top left of the screen) to create
+> - Under the Configuration tab, click Ports Lists. 
+> - Click the Star Icon (on the top left of the screen) to create a New Ports List
+> - Fill out the form with the correct details and click Create.
+> - The created port list should appear on the list, as shown below.
+> - Under the Configuration tab, click Targets.
+> - Click the Star Icon (on the top left of the screen) to create
